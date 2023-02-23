@@ -319,3 +319,64 @@ label img{
     transform: rotate(360deg);
   }
 }
+
+@media screen and (max-width: 1230px) {
+  .sidebar{
+    width: 30%;
+  }
+}
+@media screen and(max-width:1042px){
+  .sidebar{
+    width: 40%;
+  }
+  .navbar span.logo{
+    font-size: 8px;
+  }
+  .user{
+    font-size: .7rem;
+  }
+  .user button{
+    font-size: 0.5rem;
+  }
+  .user img{
+    width: 30px;
+    height: 30px;
+  }
+  
+}
+
+@media screen and (max-width: 819px) {
+  .navbar .logo{
+    display: none;
+  }
+}
+@media screen and (max-width: 626px) {
+  .sidebar{
+    width: 40%;
+    position: relative;
+  }
+  .user button{
+    font-size: 12px;
+    padding: 8px;
+    position: absolute;
+    bottom: 0;
+  }
+  .user img{
+    width: 30px;
+    height: 30px;
+  }
+  .user_chat img{
+    width: 30px;
+    height: 30px;
+  }
+}
+@media screen and (max-width:351px) {
+  .user{
+    font-style: 10px;
+    flex-wrap: wrap;
+  }
+  .user_chat img{
+    width: 20px;
+    height: 20px;
+  }
+}
